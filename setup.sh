@@ -1,5 +1,7 @@
 #!bin/bash
 clear
+PS0='result:\n'
+PS1="\033[96mbrutezip: \033[0m"
 PS1="\033[96m(Option)=\033[0m"
 pkg install python
 echo "	Welcome to BRUTEZIP tool"
