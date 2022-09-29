@@ -1,8 +1,8 @@
 #!bin/bash
 clear
-pip install colorama
+PS1="\033[96m(Option)=\033[0m"
 echo "	Welcome to BRUTEZIP tool"
 echo "	Get more hacking tools and tutorials \n	  from my website : www.nerdhaka.blogspot.com
 echo "	Start your attack :)"
 clear
-python brutezip.py
+sh start.sh
