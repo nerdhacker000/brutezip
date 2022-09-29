@@ -1,20 +1,20 @@
 import zipfile
 from zipfile import ZipFile
 
-print( "\033[94m	 ____	  ____    _       _ ______   ______   ______  ______  ______") 
-print( "\033[94m	||   \\  ||   \\  \\     //|__  __|||______| |__   _||__  __||	    \ ") 
-print( "\033[94m	||___//  ||___//  ||     ||   ||   ||______      // |   ||   |______/") 
-print( "\033[94m	||    \\ ||    \\ ||     ||   ||   ||______|  _//___  __||__ ||") 
-print( "\033[94m	||____// ||    || \\_____//   ||   \\_______ |______||______|||") 
-print( "\033[94m	\______/ \______/  \______/\______/ \______/ \______/\______/\______/") 
-print( "\033[94m		BRUTEZIP was made by Nerd Haka") 
-print( "\033[96m	Find more tools and tutorials: www.nerdhaka.blogspot.com") 
+print( str("\033[94m	 ____	  ____    _       _ ______   ______   ______  ______  ______")) 
+print( str("\033[94m	||   \\  ||   \\  \\     //|__  __|||______| |__   _||__  __||	    \ ")) 
+print( str("\033[94m	||___//  ||___//  ||     ||   ||   ||______      // |   ||   |______/")) 
+print( str("\033[94m	||    \\ ||    \\ ||     ||   ||   ||______|  _//___  __||__ ||")) 
+print( str("\033[94m	||____// ||    || \\_____//   ||   \\_______ |______||______|||")) 
+print( str("\033[94m	\______/ \______/  \______/\______/ \______/ \______/\______/\______/")) 
+print( str("\033[94m		BRUTEZIP was made by Nerd Haka")) 
+print( str("\033[96m	Find more tools and tutorials: www.nerdhaka.blogspot.com")) 
 
-print( "----------------------------------------------------------") 
-print( "¦ Tool Command    ¦ Description				 ¦") 
-print( "¦\033[94m brute test.zip  ¦ test.zip is the locked file ¦") 
-print( "¦ default.attack  ¦ Attack using default wordlist	 ¦") 
-print( "-----------------------------------------------------------") 
+print( str("----------------------------------------------------------")) 
+print( str("¦ Tool Command    ¦ Description				 ¦")) 
+print( str("¦\033[94m brute test.zip  ¦ test.zip is the locked file ¦")) 
+print( str("¦ default.attack  ¦ Attack using default wordlist	 ¦")) 
+print( str("-----------------------------------------------------------")) 
 
 def brute_password(wordlist, obj):
     idl = 0
