@@ -12,7 +12,7 @@ print( "\033[96m	Find more tools and tutorials: www.nerdhaka.blogspot.com")
 
 print( "----------------------------------------------------------") 
 print( "¦ Tool Command    ¦ Description				 ¦") 
-print( "¦ \033[94m brute test.zip  ¦ test.zip is the locked file ¦") 
+print( "¦\033[94m brute test.zip  ¦ test.zip is the locked file ¦") 
 print( "¦ default.attack  ¦ Attack using default wordlist	 ¦") 
 print( "-----------------------------------------------------------") 
 
@@ -33,7 +33,7 @@ def brute_password(wordlist, obj):
 
 inputfile=input("Enter command to process:  ")
 inputfile=inputfile.replace("brute ","")
-inputkey=input("Attack Using? If you don't know what to type, Type: default.attack")
+inputkey=input("If you don't know what to type, Type: default.attack\nAttack using: ")
 wordlist = inputkey
 zip_file = inputfile
 obj = zipfile.ZipFile(zip_file)
