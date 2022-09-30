@@ -1,11 +1,11 @@
 import zipfile
 from zipfile import ZipFile
 
-print( str("\033[94m	▉▒▒▒╮ 	 ▉▒▒▓╮	 ╮       ╭ ▉▒▒▒▒▒▓ ▉▒▒▒▒▓  ▉▒▒▒▒▓╮   ▉  ▉▒▒▒▒▓╮
-print( str("\033[94m	▉    ▓	 ▉    ▓  ▉      ▉     ▓     ▉             ╭▒	 ▉  ▉      ▓
-print( str("\033[94m	▉▒▒▒▒╯╮ ▉▒▒▒▒╮ ▉      ▉     ▓     ▉▒▒▒▒▓     ╭▒	 ▉  ▉▒▒▒▒▓╯
-print( str("\033[94m	▉      ▓ ▉     ▓ ▉	▉      ▓     ▉        ╭▒	 ▉  ▉
-print( str("\033[94m	▉▒▒▒▒▒╯ ▉     ▓  ╰▒▒▒╯      ▓     ▉▒▒▒▒▓  ▉▒▒▒▒▒▓	 ▉  ▉
+print( str("\033[94m	▉▒▒▒╮ 	 ▉▒▒▓╮	 ╮       ╭ ▉▒▒▒▒▒▓ ▉▒▒▒▒▓  ▉▒▒▒▒▓╮   ▉  ▉▒▒▒▒▓╮))" 
+print( str("\033[94m	▉    ▓	 ▉    ▓  ▉      ▉     ▓     ▉             ╭▒	 ▉  ▉      ▓))" 
+print( str("\033[94m	▉▒▒▒▒╯╮ ▉▒▒▒▒╮ ▉      ▉     ▓     ▉▒▒▒▒▓     ╭▒	 ▉  ▉▒▒▒▒▓╯))" 
+print( str("\033[94m	▉      ▓ ▉     ▓ ▉	▉      ▓     ▉        ╭▒	 ▉  ▉)) "
+print( str("\033[94m	▉▒▒▒▒▒╯ ▉     ▓  ╰▒▒▒╯      ▓     ▉▒▒▒▒▓  ▉▒▒▒▒▒▓	 ▉  ▉)) "
 print( str("\033[94m		BRUTEZIP was made by Nerd Haka")) 
 print( str("\033[96m	Find more tools and tutorials: www.nerdhaka.blogspot.com")) 
 
